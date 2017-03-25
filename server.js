@@ -5,10 +5,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 /* Bot Connector connection */
-const myBot = new BotConnector({ userSlug: 'geekvaibhav', botId: 'f8d92422-f737-483e-85e3-8fd74f669d5e', userToken: '0c5e71c6c192e5af5789e5c429ff4535' })
+const myBot = new BotConnector({ userSlug: 'ishan', botId: '60953c03-b114-4369-871e-9b4c93329d65', userToken: '8e2560343141d4f933a683ce9e769a35' })
 
 /* Recast.AI API connection */
-const client = new recastai.Client('dccef3e283b71479163b3f8edad2e181')
+const client = new recastai.Client('767346466f9c81a93b7e46fbb02c7517')
 
 /* Server setup */
 const app = express()
